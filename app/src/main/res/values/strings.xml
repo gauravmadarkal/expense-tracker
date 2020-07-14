@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExpenseTracker</string>
+    <string name="expenditure">Expense vs Earnings</string>
+    <string name="tagsExpenditure">Categories of Expense</string>
+    <string name="helperText">Click on the chart to fetch the results</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="groceries">Groceries</string>
+    <string name="shopping">Shopping</string>
+    <string name="food">Food</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="custom_tag">Custom</string>
+    <string name="hint_custom_tag">Type tag name here</string>
+    <string name="add_tag">Add Tag</string>
+    <string name="editTextError">Cannot be empty</string>
+    <string name="search_by_tags">Search by Tags, type here..</string>
+</resources>
