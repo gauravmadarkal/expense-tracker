@@ -1,8 +1,9 @@
-package com.expense.tracker.Service;
+package com.expense.tracker.service;
 
 import android.content.ContentResolver;
 import android.database.Cursor;
 import android.net.Uri;
+
 import com.expense.tracker.model.Sms;
 import com.expense.tracker.views.TrackerActivity;
 

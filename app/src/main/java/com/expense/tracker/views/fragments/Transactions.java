@@ -2,8 +2,6 @@ package com.expense.tracker.views.fragments;
 
 import android.Manifest;
 import android.app.Activity;
-import android.content.pm.PackageManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -13,7 +11,6 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,15 +18,10 @@ import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
 import com.expense.tracker.R;
-import com.expense.tracker.Service.SmsReader;
-import com.expense.tracker.Service.TransactionReader;
 import com.expense.tracker.adapter.TransactionsAdapter;
-import com.expense.tracker.model.Sms;
 import com.expense.tracker.model.Transaction;
-import com.expense.tracker.model.TransactionType;
 import com.expense.tracker.views.TrackerActivity;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Transactions extends Fragment {
@@ -45,7 +37,7 @@ public class Transactions extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        Toast.makeText(TrackerActivity.getInstance(), "Transactions fragment", Toast.LENGTH_SHORT).show();
+   //     Toast.makeText(TrackerActivity.getInstance(), "Transactions fragment", Toast.LENGTH_SHORT).show();
         view = inflater.inflate(R.layout.transaction, container, false);
         transactionsList = view.findViewById(R.id.transactions);
         progressBar = view.findViewById(R.id.progressBarLogin);

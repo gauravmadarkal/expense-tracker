@@ -1,4 +1,4 @@
-package com.expense.tracker.Service;
+package com.expense.tracker.service;
 
 import android.util.Log;
 import com.expense.tracker.model.Sms;

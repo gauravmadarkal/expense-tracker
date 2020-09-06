@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">ExpenseTracker</string>
-    <string name="expenditure">Expense vs Earnings</string>
-    <string name="tagsExpenditure">Categories of Expense</string>
-    <string name="helperText">Click on the chart to fetch the results</string>
+    <string name="expenditure"><b>Expense vs Earnings</b></string>
+    <string name="tagsExpenditure"><b>Categories of Expense</b></string>
+    <string name="helperText">Click on the chart to refresh the results</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="groceries">Groceries</string>

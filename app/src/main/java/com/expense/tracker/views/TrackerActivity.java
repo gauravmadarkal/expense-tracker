@@ -15,8 +15,8 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.expense.tracker.R;
-import com.expense.tracker.Service.SmsReader;
-import com.expense.tracker.Service.TransactionReader;
+import com.expense.tracker.service.SmsReader;
+import com.expense.tracker.service.TransactionReader;
 import com.expense.tracker.model.Sms;
 import com.expense.tracker.model.Transaction;
 import com.expense.tracker.views.fragments.Expenditure;
